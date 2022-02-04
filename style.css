@@ -1,0 +1,137 @@
+body{
+    background-color:  rgb(197,228,231);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+header{
+    text-align: center;
+    margin-bottom: 90px ;
+}
+.main-area{
+    border: 1px solid rgb(197,228,231);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 760px;
+    height: 400px;
+    margin: auto;
+    padding-left: 40px
+}
+#bill{
+    margin-bottom: 2px;
+}
+#check{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: right;
+    width: 47%;
+    border: none;
+    background-color: rgb(197,228,231);
+}
+span{
+    display: inline-block;
+}
+.input button{
+    border: none;
+    size: 100% ;
+    background-color: #fff;
+}
+.tips-1{
+    border: 1px solid white;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    word-spacing: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#tip-5 ,#tip-10{
+    color: #fff;
+    margin-left: 10px;
+    word-spacing: 10px;
+    background-color: hsl(183, 100%, 15%);
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(-20px,0);
+}
+
+.text{
+    margin-top: -3px;
+}
+#tip-10{
+    transform: translateX(-35px);
+}
+#tip-15{
+    color: #fff;
+    margin-left: 10px;
+    word-spacing: 20px;
+    background-color: hsl(183, 86%, 35%);
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px; 
+    transform: translate(-50px);
+}
+.tips-2{
+    text-align: center;
+    border: 1px solid white;
+    word-spacing: 40px;
+}
+#tip-25 ,#tip-50{
+    color: #fff;
+    word-spacing: 20px;
+    background-color: hsl(183, 100%, 15%);
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#tip-25{
+    display: block;
+    margin-left: 10px;
+    transform: translate(-20px,-10px);
+}
+#tip-50{
+    transform: translate(-57px,-10px);
+}
+#tip-custom{
+    background-color: hsl(0, 0%, 100%);
+    transform: translate(-80px,-20px);
+    color: hsl(183, 100%, 15%);
+    height: 40px;
+}
+#people{
+    margin-top: -10px;
+}
+#amount-of-people{
+    transform: translateY(-20px);
+    border: none;
+    background-color: rgb(197,228,231);
+    padding: 7px;
+    text-align: right;
+}
+.output{
+    transform: translate(370px,-336px);
+    border: 1px solid hsl(183, 100%, 15%);
+    background-color: hsl(183, 100%, 15%);
+    color: #fff;
+    width: 50%;
+    border-radius: 25px;
+    height: 345px;
+    margin-right: 10px;
+}
+.total{
+    margin-left: 20px;
+}
+.person{
+    color: hsl(185, 41%, 84%);
+    margin-top: -80px;
+}
+#all{
+    transform: translate(190px,-45px);
+}
+#for-person{
+    transform: translate(190px,-45px);
+}

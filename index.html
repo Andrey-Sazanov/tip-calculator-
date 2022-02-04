@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><p>S P L I</p><p>T T E R</p></header>
+    <section>
+        <div class="main-area">
+            <span class="input">
+                 <p id = 'bill'>Bill</p>
+                <input type="text" id="check">
+                <div class="tip">
+                    <p> Select Tip %</p>
+                        <div class="tips-1">
+                            <button><span id = 'tip-5'> <p class="text">5%</p></span></button>
+                            <button><span id = 'tip-10'><p class="text">10%</p></span></button>
+                            <button><span id = 'tip-15'><p class="text">15%</p></span></button>
+                        </div>
+                        <div class="tips-2">
+                            <button><span id = 'tip-25'> <p class="text">25%</p></span></button>
+                            <button><span id = 'tip-50'><p class="text">50%</p></span></button>
+                            <button><span id = 'tip-custom'><p class="text">custom</p></span></button>                        
+                        </div>
+                </div>
+                <div class="people">
+                    <p id = 'people'>Number of People</p>
+                    <input id = 'amount-of-people' type="number">
+                </div>
+            </span>
+            <span class="output">
+                <div class="total">
+                    <div class="tip-amount">
+                        <p>Tip Amount</p>
+                        <p id = 'for-person'>0</p>
+                        <p class = 'person'>/ person</p>
+                    </div>
+                    <div class="tip-total">
+                        <p>Total</p>
+                        <p id = 'all'>0 </p>
+                        <p class="person">/ person</p>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
